@@ -12,4 +12,3 @@ RUN python -m spacy download en_core_web_sm
 
 CMD ["python", "WoReader.py"]
 
-ENTRYPOINT ["top", "-b"]
