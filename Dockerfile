@@ -6,8 +6,8 @@ WORKDIR /app
 COPY WoReader.py .
 COPY random_paragraphs.txt .
 
-RUN install -U pip setuptools wheel
-RUN pip install -U spacy
+
+RUN pip install spacy
 RUN python -m spacy download en_core_web_sm
 
 CMD ["python", "WoReader.py"]
