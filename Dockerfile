@@ -3,7 +3,7 @@ LABEL authors="22011557"
 
 WORKDIR /app
 
-COPY req.text .
+COPY req.txt .
 COPY WoReader.py .
 COPY random_paragraphs.txt .
 
